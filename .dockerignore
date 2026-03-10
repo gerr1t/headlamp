@@ -3,3 +3,7 @@ backend/tools/
 docs/
 **/*.stories.*
 **/*.test.*
+
+# Exclude app/ (desktop/Electron) - only web UI is built; app/package.json is kept for version info
+app/*
+!app/package.json
